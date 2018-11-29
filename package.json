@@ -1,0 +1,21 @@
+{
+  "name": "styler-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "fastify": "^2.0.0-rc.1",
+    "fastify-mongodb": "^0.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
